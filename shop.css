@@ -1,0 +1,27 @@
+
+
+header .nav{
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .nav1{
+    padding: 1.4rem 0rem;
+    
+}
+
+header .nav1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .products{
+    padding: 6rem 2rem;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  
+}
